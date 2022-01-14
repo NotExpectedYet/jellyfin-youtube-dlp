@@ -1,5 +1,7 @@
 name: Docker
-on: push
+on:
+  schedule:
+    - cron: "0 0 * * 5" # Build every Friday at 12:00AM from master
 jobs:
   docker:
     runs-on: ubuntu-latest
