@@ -7,4 +7,4 @@ Builds once a week from jellyfin/jellyfin:unstable
 I personally use this on unraid, just swap out `jellyfin/jellyfin:lastest` with `notexpectedyet/jellyfin-custom-youtube-dlp:latest
 `
 
-This is mainly for personal use, use at your own risk.
+This is mainly for personal use, use at your own risk. Provided As is...
