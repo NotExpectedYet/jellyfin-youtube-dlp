@@ -1,5 +1,6 @@
 name: Docker
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * 5" # Build every Friday at 12:00AM from master
   push:
